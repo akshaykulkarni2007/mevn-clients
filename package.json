@@ -1,0 +1,20 @@
+{
+	"name": "mevn-project",
+	"version": "1.0.0",
+	"description": "MEVN project",
+	"author": "Akshay Kulkarni",
+	"dependencies": {
+		"concurrently": "^7.6.0"
+	},
+	"scripts": {
+		"client-deps": "npm install --prefix client",
+		"server-deps": "npm install --prefix server",
+		"client": "npm run dev --prefix client",
+		"server": "npm run dev --prefix server",
+		"deps": "concurrently \"npm install\" \"npm run client-deps\" \"npm run server-deps\"",
+		"dev": "concurrently \"npm run client\" \"npm run server\"",
+		"seed": "npm run seed --prefix server",
+		"purge": "npm run purge --prefix server"
+	},
+	"license": "ISC"
+}
