@@ -1,4 +1,4 @@
-# Big Language Solutions MEVN Project
+# MEVN clients list Project
 
 This is simple MEVN project which allows users to perform CRUD operations on `clients` and associated `providers` for the clients. Deployed [netlify](https://prismatic-genie-08330c.netlify.app/). API server is deployed on [render](https://mevn-clients-server.onrender.com)
 
