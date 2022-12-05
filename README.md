@@ -24,7 +24,11 @@ Clone repository:
 
 ### Starting local development environment
 
-Run `npm run deps` in `root` directory **OR** `npm install` in `root` directory, `client` directory and `server` directory.
+Run `npm install` and then `npm run deps` in `root` directory 
+
+**OR** 
+
+Run `npm install` in `root` directory, `client` directory and `server` directory.
 
 Run folowing command from root directory to start client and server simultaneously:
 
