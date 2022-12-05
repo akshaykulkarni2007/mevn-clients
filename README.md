@@ -12,7 +12,7 @@ Client and server are totally detached from one another. Node-Express server onl
 Clone repository:
 
 ```
- git clone --recurse-submodules https://github.com/akshaykulkarni2007/bls-mevn-app
+ git clone --recurse-submodules https://github.com/akshaykulkarni2007/mevn-clients
  git submodule update --remote --merge
 
 ```

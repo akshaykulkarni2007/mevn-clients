@@ -1,8 +1,6 @@
 [submodule "client"]
 	path = client
 	url = https://github.com/akshaykulkarni2007/mevn-clients-client
-	branch = main
 [submodule "server"]
 	path = server
 	url = https://github.com/akshaykulkarni2007/mevn-clients-server
-	branch = main
